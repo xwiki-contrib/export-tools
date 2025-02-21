@@ -1,8 +1,8 @@
-# (project title)
+# Export tools
 
 Set of tools to impact the result when doing a XWiki pages export.
 
-* Project Lead: [(name)](https://www.xwiki.org/xwiki/bin/view/XWiki/JosueTille)
+* Project Lead: [Josué Tille](https://www.xwiki.org/xwiki/bin/view/XWiki/JosueTille)
 * Documentation & Downloads: [Documentation & Download](https://extensions.xwiki.org/xwiki/bin/view/Extension/Export%20tools%20macros/)
 * [Issue Tracker](https://jira.xwiki.org/browse/EXPORTTOOL
 * Communication: [Forum](https://forum.xwiki.org/), [Chat](https://dev.xwiki.org/xwiki/bin/view/Community/Chat)
