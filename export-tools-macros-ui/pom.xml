@@ -24,7 +24,7 @@
   <parent>
     <groupId>org.xwiki.contrib.export-tools</groupId>
     <artifactId>export-tools</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>export-tools-macro-ui</artifactId>
   <packaging>xar</packaging>
