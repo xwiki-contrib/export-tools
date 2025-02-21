@@ -49,7 +49,7 @@
     <tag>HEAD</tag>
   </scm>
   <modules>
-    <module>export-tools-macros-ui</module>
+    <module>export-tools-macro-ui</module>
     <module>export-tools-confluence-scroll-exporter-shallow</module>
   </modules>
 </project>
