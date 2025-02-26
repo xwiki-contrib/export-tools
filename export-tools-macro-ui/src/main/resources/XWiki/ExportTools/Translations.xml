@@ -41,7 +41,9 @@ rendering.macro.export-ignore.description=Hide the macro content when the page i
 rendering.macro.export-ignore.contentDescription=The content to hide when the page is exported
 rendering.macro.export-only.name=Export only
 rendering.macro.export-only.description=Show the macro content only when the page is exported
-rendering.macro.export-only.contentDescription=The content to show only when the page is exported</content>
+rendering.macro.export-only.contentDescription=The content to show only when the page is exported
+
+exporttools.macro.pdfTemplate.title=Export tools template</content>
   <object>
     <name>XWiki.ExportTools.Translations</name>
     <number>0</number>

@@ -20,7 +20,7 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<xwikidoc version="1.5" reference="XWiki.ExportTools.Macros.Shallow.ExportPagetitle" locale="">
+<xwikidoc version="1.5" reference="XWiki.ExportTools.Macros.ExportPagetitle" locale="">
   <web>Macros.Shallow</web>
   <name>ExportPagetitle</name>
   <language/>
@@ -38,7 +38,7 @@
   <hidden>true</hidden>
   <content/>
   <object>
-    <name>XWiki.ExportTools.Macros.Shallow.ExportPagetitle</name>
+    <name>XWiki.ExportTools.Macros.ExportPagetitle</name>
     <number>0</number>
     <className>XWiki.WikiMacroClass</className>
     <guid>b53a886d-800c-497c-8a5f-33e4ad65de79</guid>
@@ -253,7 +253,8 @@
     </property>
     <property>
       <code>{{velocity}}
-##Do nothing
+## Do nothing, note we get the page title (so getting this macro content) by parsing the page content
+## so we don't need to do anything here.
 {{/velocity}}</code>
     </property>
     <property>

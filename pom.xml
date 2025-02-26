@@ -51,5 +51,6 @@
   <modules>
     <module>export-tools-macro-ui</module>
     <module>export-tools-confluence-scroll-exporter-shallow</module>
+    <module>export-tools-api</module>
   </modules>
 </project>
