@@ -151,7 +151,7 @@
       <cover>{{velocity}}
 #set ($docCoverTitle = $services.exportTools.getExportPageTitleMacroContent($tdoc))
 {{html clean="false"}}
-## BEGIN customization of template from
+## BEGIN customization of template from upstream
 #if ($docCoverTitle)
   &lt;h1&gt;$escapetool.xml($docCoverTitle)&lt;/h1&gt;
 #else
