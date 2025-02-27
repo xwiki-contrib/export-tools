@@ -24,7 +24,6 @@
     Note this template was a copy from XWiki/PDFExport/Template.xml on XWiki platform 15.10.16
     For now the only customization is the Cover title which can be set from the 'export-pagetitle' macro.
 -->
-
 <xwikidoc version="1.5" reference="XWiki.ExportTools.PDFTemplate" locale="">
   <web>XWiki.ExportTools</web>
   <name>PDFTemplate</name>
