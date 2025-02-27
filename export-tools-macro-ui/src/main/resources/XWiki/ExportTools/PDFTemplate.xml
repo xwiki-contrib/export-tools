@@ -338,6 +338,10 @@
       break-before: page;
     }
   }
+
+  .export-tools-pagebreak {
+    break-after: page;
+  }
 }</code>
     </property>
     <property>

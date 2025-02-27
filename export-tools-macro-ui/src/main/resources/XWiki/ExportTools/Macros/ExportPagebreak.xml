@@ -20,8 +20,8 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<xwikidoc version="1.5" reference="XWiki.ExportTools.Macros.Shallow.ExportPagebreak" locale="">
-  <web>XWiki.ExportTools.Macros.Shallow</web>
+<xwikidoc version="1.5" reference="XWiki.ExportTools.Macros.ExportPagebreak" locale="">
+  <web>XWiki.ExportTools.Macros</web>
   <name>ExportPagebreak</name>
   <language/>
   <defaultLanguage/>
@@ -38,7 +38,7 @@
   <hidden>true</hidden>
   <content/>
   <object>
-    <name>XWiki.ExportTools.Macros.Shallow.ExportPagebreak</name>
+    <name>XWiki.ExportTools.Macros.ExportPagebreak</name>
     <number>0</number>
     <className>XWiki.WikiMacroClass</className>
     <guid>387c705e-9e1d-4c62-ac22-57d93068df89</guid>
@@ -252,9 +252,9 @@
       <async_enabled>0</async_enabled>
     </property>
     <property>
-      <code>{{velocity}}
-##Do nothing
-{{/velocity}}</code>
+      <code>{{html clean="false"}}
+&lt;div class="export-tools-pagebreak"&gt;&lt;/div&gt;
+{{/html}}</code>
     </property>
     <property>
       <contentDescription/>
@@ -266,9 +266,7 @@
       <contentType>No content</contentType>
     </property>
     <property>
-      <defaultCategories>
-        <value>Confluence</value>
-      </defaultCategories>
+      <defaultCategories/>
     </property>
     <property>
       <description/>

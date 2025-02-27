@@ -35,6 +35,7 @@
     <xwiki.extension.components>
       org.xwiki.rendering.macro.Macro/export-ignore
       org.xwiki.rendering.macro.Macro/export-only
+      org.xwiki.rendering.macro.Macro/export-pagebreak
       org.xwiki.rendering.macro.Macro/export-pagetitle
     </xwiki.extension.components>
   </properties>
