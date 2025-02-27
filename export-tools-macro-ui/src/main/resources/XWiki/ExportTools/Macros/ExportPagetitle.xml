@@ -267,9 +267,7 @@
       <contentType>Optional</contentType>
     </property>
     <property>
-      <defaultCategories>
-        <value>Confluence</value>
-      </defaultCategories>
+      <defaultCategories/>
     </property>
     <property>
       <description/>
