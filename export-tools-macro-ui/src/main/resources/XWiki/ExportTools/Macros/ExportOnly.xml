@@ -21,7 +21,7 @@
 -->
 
 <xwikidoc version="1.5" reference="XWiki.ExportTools.Macros.ExportOnly" locale="">
-  <web>XWiki.ExportTools</web>
+  <web>XWiki.ExportTools.Macros</web>
   <name>ExportOnly</name>
   <language/>
   <defaultLanguage/>

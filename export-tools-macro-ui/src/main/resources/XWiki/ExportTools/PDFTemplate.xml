@@ -26,8 +26,8 @@
 -->
 
 <xwikidoc version="1.5" reference="XWiki.ExportTools.PDFTemplate" locale="">
-  <web>XWiki.PDFExport</web>
-  <name>Template</name>
+  <web>XWiki.ExportTools</web>
+  <name>PDFTemplate</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>

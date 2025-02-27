@@ -21,7 +21,7 @@
 -->
 
 <xwikidoc version="1.5" reference="XWiki.ExportTools.Macros.ExportPagetitle" locale="">
-  <web>Macros.Shallow</web>
+  <web>XWiki.ExportTools.Macros</web>
   <name>ExportPagetitle</name>
   <language/>
   <defaultLanguage/>

@@ -21,7 +21,7 @@
 -->
 
 <xwikidoc version="1.5" reference="XWiki.ExportTools.Macros.Shallow.ExportIndexterm" locale="">
-  <web>Macros.Shallow</web>
+  <web>XWiki.ExportTools.Macros.Shallow</web>
   <name>ExportIndexterm</name>
   <language/>
   <defaultLanguage/>
