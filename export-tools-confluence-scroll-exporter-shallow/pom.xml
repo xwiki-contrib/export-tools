@@ -34,8 +34,15 @@
   <properties>
     <xwiki.extension.name>Confluence scroll exporter shallow macros</xwiki.extension.name>
     <xwiki.extension.components>
+      org.xwiki.rendering.macro.Macro/export-bookmark
+      org.xwiki.rendering.macro.Macro/export-content-block
+      org.xwiki.rendering.macro.Macro/export-exportbutton
       org.xwiki.rendering.macro.Macro/export-indexterm
-      org.xwiki.rendering.macro.Macro/export-pagetitle
+      org.xwiki.rendering.macro.Macro/export-landscape
+      org.xwiki.rendering.macro.Macro/export-pagebreak
+      org.xwiki.rendering.macro.Macro/export-portrait
+      org.xwiki.rendering.macro.Macro/export-tablelayout
+      org.xwiki.rendering.macro.Macro/export-title
     </xwiki.extension.components>
   </properties>
   <dependencies>
