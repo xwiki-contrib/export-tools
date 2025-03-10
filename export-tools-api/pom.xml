@@ -24,7 +24,7 @@
   <parent>
     <groupId>org.xwiki.contrib.export-tools</groupId>
     <artifactId>export-tools</artifactId>
-    <version>1.1.1-SNAPSHOT</version>
+    <version>1.2.0</version>
   </parent>
   <artifactId>export-tools-api</artifactId>
   <packaging>jar</packaging>
