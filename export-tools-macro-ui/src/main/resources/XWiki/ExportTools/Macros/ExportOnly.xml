@@ -276,7 +276,9 @@ my content which will be shown only on the export...
       <contentType>Mandatory</contentType>
     </property>
     <property>
-      <defaultCategories/>
+      <defaultCategories>
+        <value>Formatting</value>
+      </defaultCategories>
     </property>
     <property>
       <description/>

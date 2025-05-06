@@ -267,7 +267,9 @@
       <contentType>Optional</contentType>
     </property>
     <property>
-      <defaultCategories/>
+      <defaultCategories>
+        <value>Formatting</value>
+      </defaultCategories>
     </property>
     <property>
       <description/>

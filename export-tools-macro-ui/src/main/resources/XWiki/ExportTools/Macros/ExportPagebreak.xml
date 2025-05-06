@@ -266,7 +266,9 @@
       <contentType>No content</contentType>
     </property>
     <property>
-      <defaultCategories/>
+      <defaultCategories>
+        <value>Formatting</value>
+      </defaultCategories>
     </property>
     <property>
       <description/>
