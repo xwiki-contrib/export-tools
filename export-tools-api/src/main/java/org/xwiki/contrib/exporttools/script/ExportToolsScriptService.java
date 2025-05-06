@@ -75,7 +75,7 @@ public class ExportToolsScriptService implements ScriptService
      */
     public String getExportPageTitleMacroContent(Document document)
     {
-        return findDetailsMacros(document.getXDOM(), document.getSyntax().toIdString());
+        return getExportPageTitleMacros(document.getXDOM(), document.getSyntax().toIdString());
     }
 
     private XDOM parse(String text, String syntaxId)
@@ -114,7 +114,7 @@ public class ExportToolsScriptService implements ScriptService
         return null;
     }
 
-    private String findDetailsMacros(XDOM xdom, String syntaxId)
+    private String getExportPageTitleMacros(XDOM xdom, String syntaxId)
     {
         List<MacroBlock> macros = xdom.getBlocks(MACRO_MATCHER, Block.Axes.DESCENDANT_OR_SELF);
         for (MacroBlock macroBlock : macros) {
@@ -124,7 +124,7 @@ public class ExportToolsScriptService implements ScriptService
                 } else {
                     XDOM macroXDOM = getMacroXDOM(macroBlock, syntaxId);
                     if (macroXDOM != null) {
-                        String res = findDetailsMacros(macroXDOM, syntaxId);
+                        String res = getExportPageTitleMacros(macroXDOM, syntaxId);
                         if (res != null) {
                             return res;
                         }
