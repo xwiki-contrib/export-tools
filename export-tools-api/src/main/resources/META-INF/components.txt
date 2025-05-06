@@ -1,2 +1,2 @@
+org.xwiki.contrib.exporttools.macros.ExportTablelayoutMacro
 org.xwiki.contrib.exporttools.script.ExportToolsScriptService
-
