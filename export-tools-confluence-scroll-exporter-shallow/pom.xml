@@ -43,6 +43,7 @@
       org.xwiki.rendering.macro.Macro/export-tablelayout
       org.xwiki.rendering.macro.Macro/export-title
     </xwiki.extension.components>
+    <xwiki.extension.category>macro</xwiki.extension.category>
   </properties>
   <dependencies>
     <dependency>

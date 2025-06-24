@@ -38,6 +38,7 @@
       org.xwiki.rendering.macro.Macro/export-pagebreak
       org.xwiki.rendering.macro.Macro/export-pagetitle
     </xwiki.extension.components>
+    <xwiki.extension.category>macro</xwiki.extension.category>
   </properties>
   <dependencies>
     <dependency>
