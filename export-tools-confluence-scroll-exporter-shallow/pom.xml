@@ -40,7 +40,6 @@
       org.xwiki.rendering.macro.Macro/export-indexterm
       org.xwiki.rendering.macro.Macro/export-landscape
       org.xwiki.rendering.macro.Macro/export-portrait
-      org.xwiki.rendering.macro.Macro/export-tablelayout
       org.xwiki.rendering.macro.Macro/export-title
     </xwiki.extension.components>
     <xwiki.extension.category>macro</xwiki.extension.category>
