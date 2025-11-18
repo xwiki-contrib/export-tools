@@ -260,8 +260,7 @@ my content which will be hidden on the export...
     <property>
       <code>{{velocity}}
 #set ($exportText = 'export')
-#set ($targetSyntaxId = $wikimacro.context.transformationContext.targetSyntax.type.id)
-#if (!$exportText.equalsIgnoreCase($xcontext.action) || $targetSyntaxId == 'annotatedhtml' || $targetSyntaxId == 'annotatedxhtml')
+#if (!$exportText.equalsIgnoreCase($xcontext.action))
   {{wikimacrocontent/}}
 #end
 {{/velocity}}</code>

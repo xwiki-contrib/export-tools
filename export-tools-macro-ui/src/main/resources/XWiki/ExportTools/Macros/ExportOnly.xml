@@ -259,9 +259,25 @@ my content which will be shown only on the export...
     </property>
     <property>
       <code>{{velocity}}
+#macro(isEdit $return)
+  #set ($macro.targetSyntax = $wikimacro.context.transformationContext.targetSyntax)
+  #if ($macro.targetSyntax != $NULL)
+    #set ($macro.targetSyntaxId = $macro.targetSyntax.type.id)
+    #set ($isEdit = $macro.targetSyntaxId == 'annotatedhtml' || $macro.targetSyntaxId == 'annotatedxhtml')
+  #else
+    ## If target syntax ID is null need to fallback with the script context manager
+    ## Solve issue https://jira.xwiki.org/browse/XWIKI-22738 (fixed with XWiki &gt;= 17.0.0)
+    #set ($macro.scriptContextManager = $services.component.getInstance('org.xwiki.script.ScriptContextManager'))
+    #set ($macro.targetSyntaxId = $macro.scriptContextManager.getScriptContext().getAttribute("syntaxType"))
+    #set ($isEdit = $macro.targetSyntaxId == 'annotatedhtml' || $macro.targetSyntaxId == 'annotatedxhtml')
+  #end
+  #set ($return = $NULL)
+  #setVariable("$return" $isEdit)
+#end
 #set ($exportText = 'export')
-#set ($targetSyntaxId = $wikimacro.context.transformationContext.targetSyntax.type.id)
-#if ($exportText.equalsIgnoreCase($xcontext.action) || $targetSyntaxId == 'annotatedhtml' || $targetSyntaxId == 'annotatedxhtml')
+#set ($isEdit = $NULL)
+#isEdit($isEdit)
+#if ($exportText.equalsIgnoreCase($xcontext.action) || $isEdit)
   {{wikimacrocontent/}}
 #end
 {{/velocity}}</code>
